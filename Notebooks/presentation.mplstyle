@@ -1,0 +1,40 @@
+## Matplotlib style sheet by Hung-Ling
+## Primarily making font size larger and compact spacing
+## https://matplotlib.org/stable/users/explain/customizing.html
+
+## Lines
+lines.linewidth: 2  # default 1.5
+lines.markersize: 8  # default 6
+
+## Font
+font.family: Arial  # default sans-serif [DejaVu Sans, ...]
+font.size: 14  # default 10
+
+## Axes
+axes.linewidth: 1.0  # default 0.8
+axes.titlesize: 16  # default large, i.e. 1.2 times font.size
+axes.titlepad: 4.0  # default 6.0
+axes.labelsize: 15  # default medium, i.e. 1.0 times font.size
+axes.labelpad: 2.0  # default 4.0
+
+## Ticks
+xtick.major.size: 3.0  # default 3.5
+xtick.major.width: 1.0  # default 0.8
+xtick.major.pad: 3.0  # deault 3.5
+ytick.major.size: 3.0  # default 3.5
+ytick.major.width: 1.0  # default 0.8
+ytick.major.pad: 3.0  # deault 3.5
+
+## Legend
+## Dimensions as fraction of font size:
+legend.borderpad: 0.3  # default 0.4 (border whitespace)
+legend.labelspacing: 0.3  # default 0.5 (the vertical space between the legend entries)
+legend.handlelength: 1.4  # default 2.0 (the length of the legend lines)
+legend.handleheight: 0.5  # default 0.7 (the height of the legend handle)
+legend.handletextpad: 0.4  # default 0.8 (the space between the legend line and legend text)
+legend.borderaxespad: 0.4  # default 0.5 (the border between the axes and legend edge)
+
+## Saving Figures
+ps.fonttype: 42  # Make text in vector graphics editable in illustrator/inkscape
+pdf.fonttype: 42
+svg.fonttype: none  # default path (embed characters as paths), none (assume fonts are installed on the machine)
