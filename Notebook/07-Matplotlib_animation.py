@@ -23,9 +23,9 @@ fig.tight_layout()
 ## This is called sequentially
 def animate(i):
     ## One can try to modify wavelength, n, c to see different wave property
-    wavelength = 2.0  # Wavelength in free space (vaccum)
+    wavelength = 1.0  # Wavelength in free space (vaccum)
     n = 2 + 0.1j  # Complex refractive index of the medium
-    c = 4.0  # Speed of wave in vaccum
+    c = 2.0  # Speed of wave in vaccum
     
     dt = 25  # Time interval between two frames in milisecond
     x = np.linspace(0,5,400)
